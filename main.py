@@ -25,7 +25,7 @@ END_DATE = "07/05/2022"
 #24 Hour time
 TIME_ADD_CART = "07:00"
 
-POLL_SPEED_SEC = .5
+POLL_SPEED_SEC = 1
 
 
 def main():
