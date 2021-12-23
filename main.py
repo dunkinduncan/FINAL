@@ -9,23 +9,23 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
-WEB_DRIVER_EXEC = r"C:\Users\cward\dev\web-drivers\chromedriver_win32\chromedriver.exe"
+WEB_DRIVER_EXEC = r"C:\chromedriver.exe"
 
-USER_NAME = ""
-PASSWORD = ""
+USER_NAME = "duncankincheloe@gmail.com"
+PASSWORD = "Leeballa13!!!!"
 
 # Highly available one https://www.recreation.gov/camping/campgrounds/233543
 # Originally requested  https://www.recreation.gov/camping/campgrounds/232768
 CAMP_GROUND_URL = "https://www.recreation.gov/camping/campgrounds/232768"
 # MM/DD/YYYY
-START_DATE = "06/21/2022"
+START_DATE = "06/23/2022"
 # MM/DD/YYYY
-END_DATE = "06/27/2022"
+END_DATE = "07/05/2022"
 
 #24 Hour time
-TIME_ADD_CART = "07:27"
+TIME_ADD_CART = "07:00"
 
-POLL_SPEED_SEC = 1
+POLL_SPEED_SEC = .5
 
 
 def main():
